@@ -67,7 +67,7 @@ public class ItemControllerExample1 {
 
         itemDAO.edit(new Item(id, name, priceExampleUsed));
 
-        return "redirect:/";
+        return "redirect:/Example3";
 
     }
 
