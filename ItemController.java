@@ -15,7 +15,7 @@ import java.util.List;
 
 @Controller
 @Controller2
-public class ItemController {
+public class ItemControllerExample1 {
 
     @Autowired
     ItemDAO itemDAO;
@@ -41,7 +41,7 @@ public class ItemController {
     }
 
 
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    @RequestMappingExample2(value = "/add", method = RequestMethod.POST)
     public String addItem(@RequestParam(name = "name") String name,
                          @RequestParam(name = "price_name") double price){
 
